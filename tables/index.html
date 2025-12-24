@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+    table
+    tr => table row
+    th => table head
+    td => table data
+
+    
+
+    -->
+    <table border="1">
+        <caption>Student Details</caption>
+        <colgroup>
+        <col style="background-color: seagreen;" span="2">
+        <col style="background-color: tan;" span="3">
+        </colgroup>
+        <thead  >
+            <tr>
+                <th>Sno</th>
+                <th>Student Name</th>
+                <th>class</th>
+                <th>Section</th>
+                <th>Fees</th>
+            </tr>
+        </thead>
+        <tbody  >
+            <tr>
+                <td>1</td>
+                <td>Santhosh</td>
+                <td>X</td>
+                <td>A</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Siva</td>
+                <td rowspan="3">XI</td>
+                <td>A</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ram</td>
+                
+                <td>A</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>john</td> 
+                <td>A</td>
+                <td>3000</td>
+            </tr>
+        </tbody>
+        <tfoot  >
+            <tr>
+                <td colspan="4" align="right">Total</td> 
+                <td>9000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

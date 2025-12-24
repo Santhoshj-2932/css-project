@@ -1,0 +1,19 @@
+.bgcolor{
+    background-color: aqua;
+}
+#bgcolor1{
+    background-color: aquamarine;
+}
+.box{
+ border: 4px solid;
+ width: 600px;
+ height: 600px;
+ background-image: linear-gradient(red,blue);
+ border-radius: 300px;
+}
+.box:hover
+{
+    transform: rotate(270%);
+    transition: 1s;
+    
+}
